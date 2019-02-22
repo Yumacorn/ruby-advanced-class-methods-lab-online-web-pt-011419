@@ -48,6 +48,6 @@ class Song
     newfilename = filename.split(" - ")
 
     song.artist_name = newfilename[0]
-    song.name = newfilename[1].slice".mp3"
+    song.name = newfilename[1].delete_suffix!(".mp3")
   end
 end
