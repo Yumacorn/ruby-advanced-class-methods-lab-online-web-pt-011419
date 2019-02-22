@@ -48,7 +48,7 @@ class Song
     newfilename = filename.split(" - ")
 
     song.artist_name = newfilename[0]
-    binding.pry
     song.name = newfilename[1].delete_suffix!(".mp3")
+    
   end
 end
