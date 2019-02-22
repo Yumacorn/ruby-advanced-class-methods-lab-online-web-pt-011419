@@ -24,10 +24,11 @@ class Song
   end
 
   def self.create_by_name(name)
-    song = Song.new
-    song.name = name
-    self.all << song
-    song
+    # song = Song.new
+    # song.name = name
+    # self.all << song
+    # song
+    self.new_by_name(name).save
   end
 
   def self.find_by_name(name)
