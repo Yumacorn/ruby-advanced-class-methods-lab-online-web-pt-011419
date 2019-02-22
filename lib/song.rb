@@ -40,7 +40,7 @@ class Song
   end
 
   def self.alphabetical
-    songlist = self.all
+    # songlist = self.all
     sortedSongList = self.all.sort {|song_a, song_b| song_a.name <=> song_b.name}
     # binding.pry
     # songlist.sort {|a.name, b.name|}
