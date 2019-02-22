@@ -49,5 +49,5 @@ class Song
 
     song.artist_name = newfilename[0]
     song.name = newfilename[1].split(".mp3")
-    end
+  end
 end
