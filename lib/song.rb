@@ -31,7 +31,7 @@ class Song
   end
 
   def self.find_by_name(name)
-    song = self.all.collect {|s| s.name == name}
+    song = self.all.each {|s| s.name == name}
     song
   end
 end
