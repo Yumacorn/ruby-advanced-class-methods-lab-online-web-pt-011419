@@ -49,7 +49,6 @@ class Song
 
     song.artist_name = newfilename[0]
     song.name = newfilename[1].split(".mp3")[0]
-    binding.pry
-     = title
+
   end
 end
