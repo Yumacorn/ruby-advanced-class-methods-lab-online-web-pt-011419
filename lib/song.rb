@@ -40,6 +40,6 @@ class Song
 
   def self.alphabetical
     songlist = self.all
-    songlist.sort {name}
+    songlist.sort {a.name, b.name}
   end
 end
