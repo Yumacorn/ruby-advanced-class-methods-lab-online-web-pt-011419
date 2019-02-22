@@ -48,7 +48,6 @@ class Song
     newfilename = filename.split(" - ")
 
     song.artist_name = newfilename[0]
-    # song.name = "Thundercast"
     song.name = newfilename[1].split(".mp3")[0]
     song
   end
