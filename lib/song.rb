@@ -35,6 +35,7 @@ class Song
       if s.name == name
         song = s
       end
+    end
     song
   end
 end
