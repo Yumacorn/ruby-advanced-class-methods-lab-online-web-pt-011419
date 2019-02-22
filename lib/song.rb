@@ -29,4 +29,8 @@ class Song
     self.all << song
     song
   end
+
+  def self.find_by_name(name)
+    song = self.all.each {|s| s.name == name}
+    song
 end
