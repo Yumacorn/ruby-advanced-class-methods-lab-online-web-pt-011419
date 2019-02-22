@@ -29,7 +29,7 @@ class Song
     # self.all << song
     self.save
     song
-    self.new_by_name(name).save
+    # self.new_by_name(name).save
   end
 
   def self.find_by_name(name)
