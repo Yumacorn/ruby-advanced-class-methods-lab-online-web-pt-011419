@@ -51,4 +51,6 @@ class Song
     song.name = newfilename[1].split(".mp3")[0]
     song
   end
+
+  
 end
