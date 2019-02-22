@@ -48,7 +48,7 @@ class Song
     newfilename = filename.split(" - ")
 
     song.artist_name = newfilename[0]
-    title = newfilename[1].split(".mp3")
+    title = newfilename[1].split(".mp3")[0]
     binding.pry
     song.name = title
   end
