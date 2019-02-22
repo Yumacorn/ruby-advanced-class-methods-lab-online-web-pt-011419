@@ -27,7 +27,7 @@ class Song
     song = Song.new
     song.name = name
     # self.all << song
-    self.save
+    song.save
     song
     # self.new_by_name(name).save
   end
